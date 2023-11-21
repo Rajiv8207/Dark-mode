@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark and Light mode</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div><img src="https://i.ibb.co/DgJnqvF/iitm.png" alt="logo" srcset="" /></div>
+        <div class="flex124">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <img src="https://i.ibb.co/9ppx3Vq/dark.png" id="icon" alt="Error pic">
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+            <h1 class="main_contain">
+            i am <span>Coder</span> and <span>Gamer</span> </h1>
+            <p class="main_contain">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            aliquam, culpa reiciendis corrupti amet quos odit est, temporibus
+            earum illo velit commodi similique officia id voluptatibus a eius
+            facilis eveniet.
+            </p>
+            <button id="main_btn">Explore now</button>
+      </div>
+
+      <div id="bg_pic">
+        <img src="https://i.ibb.co/9WbxDQ8/women3.png" alt="girl pic missing">
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var icon = document.getElementById("icon");
+
+      icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+       
+      }
+    </script>
+  </body>
+</html>
